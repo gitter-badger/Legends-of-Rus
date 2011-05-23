@@ -1,0 +1,17 @@
+C:\Users\alex.ts\documents\visual studio 2010\Projects\classtest\classtest\bin\Debug\classtest.exe
+C:\Users\alex.ts\documents\visual studio 2010\Projects\classtest\classtest\bin\Debug\classtest.pdb
+C:\Users\alex.ts\documents\visual studio 2010\Projects\classtest\classtest\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\alex.ts\documents\visual studio 2010\Projects\classtest\classtest\obj\x86\Debug\classtest.exe
+C:\Users\alex.ts\documents\visual studio 2010\Projects\classtest\classtest\obj\x86\Debug\classtest.pdb
+C:\Users\alex.ts\Documents\Visual Studio 2010\Projects\classtest\classtest\bin\Debug\Entities.dll
+C:\Users\alex.ts\Documents\Visual Studio 2010\Projects\classtest\classtest\bin\Debug\Entities.pdb
+C:\Users\alex.ts\Documents\Visual Studio 2010\Projects\classtest\classtest\bin\Debug\Entities.xml
+C:\Users\a-tri\Documents\Visual Studio 2010\Projects\classtest\classtest\obj\x86\Debug\classtest.exe
+C:\Users\a-tri\Documents\Visual Studio 2010\Projects\classtest\classtest\obj\x86\Debug\classtest.pdb
+C:\Users\a-tri\Documents\Visual Studio 2010\Projects\Legendrus\classtest\obj\x86\Debug\classtest.exe
+C:\Users\a-tri\Documents\Visual Studio 2010\Projects\Legendrus\classtest\obj\x86\Debug\classtest.pdb
+C:\Users\a-tri\Documents\Visual Studio 2010\Projects\Legendrus\classtest\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\a-tri\Documents\Visual Studio 2010\Projects\Legendrus\classtest\bin\Debug\classtest.exe
+C:\Users\a-tri\Documents\Visual Studio 2010\Projects\Legendrus\classtest\bin\Debug\classtest.pdb
+C:\Users\a-tri\Documents\Visual Studio 2010\Projects\Legendrus\classtest\bin\Debug\Entities.dll
+C:\Users\a-tri\Documents\Visual Studio 2010\Projects\Legendrus\classtest\bin\Debug\Entities.pdb

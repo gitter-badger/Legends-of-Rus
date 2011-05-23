@@ -1,0 +1,387 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Entities</name>
+    </assembly>
+    <members>
+        <member name="P:vfight.BaseEntity.ID">
+            <summary>
+            ID
+            </summary>
+        </member>
+        <member name="P:vfight.BaseEntity.Name">
+            <summary>
+            Название
+            </summary>
+        </member>
+        <member name="P:vfight.ValuableItem.Descr">
+            <summary>
+            Описание
+            </summary>
+        </member>
+        <member name="P:vfight.ValuableItem.Cost">
+            <summary>
+            Стоимость в обычных зубах
+            </summary>
+        </member>
+        <member name="P:vfight.ValuableItem.Cost_gold">
+            <summary>
+            Стоимость в золотых зубах
+            </summary>
+        </member>
+        <member name="P:vfight.ValuableItem.Level_req">
+            <summary>
+            Требуемый уровень персонажа
+            </summary>
+        </member>
+        <member name="T:vfight.Weapon">
+            <summary>
+            Класс содержит описание характеристик оружия
+            </summary>
+        </member>
+        <member name="T:vfight.IStore">
+            <summary>
+            Интерфейс содержит описание методов для возможности сохранения/загрузки объекта в(из) базу(ы) данных.
+            </summary>
+        </member>
+        <member name="M:vfight.IStore.Load(System.Int32)">
+            <summary>
+            Загрузка объекта из базы данных. Поля данного класса заполняются значениями из базы данных.
+            </summary>
+            <param name="objectID">Идентификатор объекта</param>
+        </member>
+        <member name="M:vfight.IStore.Save">
+            <summary>
+            Сохраняет объект в базе данных и задает в объекте поле идентификатора.
+            </summary>
+        </member>
+        <member name="P:vfight.IStore.ID">
+            <summary>
+            Идентификатор объекта в базе данных.
+            </summary>
+        </member>
+        <member name="M:vfight.Weapon.#ctor(System.Int32,System.String,System.Boolean)">
+            <summary>
+            Конструктор с предустановленными значениями
+            </summary>
+            <param name="_damage">Повреждения</param>
+            <param name="_type">Тип</param>
+            <param name="_twoHands">Является ли оружие двуручным</param>
+        </member>
+        <member name="P:vfight.Fight.Date">
+            <summary>
+            Дата сражения
+            </summary>
+        </member>
+        <member name="P:vfight.Fight.Attacker">
+            <summary>
+            ID атакующего
+            </summary>
+        </member>
+        <member name="P:vfight.Fight.Defender">
+            <summary>
+            Обороняющийся
+            </summary>
+        </member>
+        <member name="P:vfight.Clan.Descr">
+            <summary>
+            Описание клана
+            </summary>
+        </member>
+        <member name="P:vfight.Clan.Slots">
+            <summary>
+            Кол-во слотов клана
+            </summary>
+        </member>
+        <member name="P:vfight.Clan.Members">
+            <summary>
+            Список ID членов клана
+            </summary>
+        </member>
+        <member name="T:vfight.Skill">
+            <summary>
+            Класс умений
+            </summary>
+        </member>
+        <member name="P:vfight.Skill.Chance">
+            <summary>
+            Шанс использовать навык (1-100)
+            </summary>
+        </member>
+        <member name="P:vfight.Skill.IsOnStart">
+            <summary>
+            Доступен ли в начале новой игры?
+            </summary>
+        </member>
+        <member name="P:vfight.Skill.Requirements">
+            <summary>
+            Для изучения требуется навык (указывается id прототипа accessories)
+            </summary>
+        </member>
+        <member name="P:vfight.Skill.Level">
+            <summary>
+            Уровень навыка (сколько раз выучен)
+            </summary>
+        </member>
+        <member name="P:vfight.Pet.Strength">
+            <summary>
+            Сила (минимальное значение - 1)
+            </summary>
+        </member>
+        <member name="P:vfight.Pet.Agility">
+            <summary>
+            Ловкость (минимальное значение - 1)
+            </summary>
+        </member>
+        <member name="P:vfight.Pet.Speed">
+            <summary>
+            Скорость (минимально значение - 1)
+            </summary>
+        </member>
+        <member name="P:vfight.Pet.Vitality">
+            <summary>
+            Живучесть (минимальное значение - 1)
+            </summary>
+        </member>
+        <member name="P:vfight.Pet.Duration">
+            <summary>
+            Жизненный цикл питомца
+            </summary>
+        </member>
+        <member name="T:vfight.DataBase">
+            <summary>
+            Класс для работы с базой данных. Содержит методы для сохранения/загрузки объектов в(из) базу(ы) данных.
+            </summary>
+        </member>
+        <member name="P:vfight.Accessories.IsMale">
+            <summary>
+            Пол
+            </summary>
+        </member>
+        <member name="P:vfight.Accessories.Duration">
+            <summary>
+            Длительность предмета в днях
+            </summary>
+        </member>
+        <member name="P:vfight.User.Name">
+            <summary>
+            Имя пользователя (Максимум 60 символов)
+            </summary>
+        </member>
+        <member name="P:vfight.User.Teeth">
+            <summary>
+            Количество зубов (игровой валюты) у персонажа
+            </summary>
+        </member>
+        <member name="P:vfight.User.TeethGold">
+            <summary>
+            Количество золотых зубов
+            </summary>
+        </member>
+        <member name="P:vfight.User.Fighter">
+            <summary>
+            Боец
+            </summary>
+        </member>
+        <member name="T:vfight.Character">
+            <summary>
+            Класс описывает структуру данных персонажа
+            </summary>
+        </member>
+        <member name="P:vfight.Character.Age">
+            <summary>
+            Возраст персонажа
+            </summary>
+        </member>
+        <member name="P:vfight.Character.UpdateStamp">
+            <summary>
+            Время последнего обращения клиента к серверу – для целей обновления данных
+            </summary>
+        </member>
+        <member name="P:vfight.Character.IsMale">
+            <summary>
+            Пол персонажа: мужской или нет?
+            </summary>
+        </member>
+        <member name="P:vfight.Character.Strength">
+            <summary>
+            Сила персонажа (минимальное значение - 1)
+            </summary>
+        </member>
+        <member name="P:vfight.Character.Agility">
+            <summary>
+            Ловкость персонажа (минимальное значение - 1)
+            </summary>
+        </member>
+        <member name="P:vfight.Character.Speed">
+            <summary>
+            Скорость персонажа (минимально значение - 1)
+            </summary>
+        </member>
+        <member name="P:vfight.Character.Vitality">
+            <summary>
+            Живучесть персонажа (минимальное значение - 1)
+            </summary>
+        </member>
+        <member name="P:vfight.Character.HP">
+            <summary>
+            Очки жизней персонажа
+            </summary>
+        </member>
+        <member name="P:vfight.Character.Skill_slots">
+            <summary>
+            Кол-во слотов умений
+            </summary>
+        </member>
+        <member name="P:vfight.Character.ArmorID">
+            <summary>
+            Идентификатор экземпляра брони
+            </summary>
+        </member>
+        <member name="P:vfight.Character.Weapons">
+            <summary>
+            Список оружия пользователя
+            </summary>
+        </member>
+        <member name="T:vfight.Armor">
+            <summary>
+            Класс доспехов
+            </summary>
+        </member>
+        <member name="M:vfight.Armor.#ctor(System.UInt32,System.Boolean,System.Int16,System.Int16,System.Int16)">
+            <summary>
+            Конструктор	класса Armor
+            </summary>
+            <param name="_id">ID доспеха</param>
+            <param name="_isMale">М/Ж</param>
+            <param name="_strength_mod">Модификатор силы</param>
+            <param name="_agility_mod">Модификатор ловкости</param>
+            <param name="_speed_mod">Модификатор скорости</param>
+        </member>
+        <member name="P:vfight.Armor.IsMale">
+            <summary>
+            Принадлежность к полу (male/female)
+            </summary>
+        </member>
+        <member name="P:vfight.Armor.Strength_mod">
+            <summary>
+            Модификатор силы
+            </summary>
+        </member>
+        <member name="P:vfight.Armor.Agiility_mod">
+            <summary>
+            Модификатор ловкости
+            </summary>
+        </member>
+        <member name="P:vfight.Armor.Speed_mod">
+            <summary>
+            Модификатор скорости
+            </summary>
+        </member>
+        <member name="P:vfight.BattleItem.IsMale">
+            <summary>
+            Пол
+            </summary>
+        </member>
+        <member name="P:vfight.BattleItem.IsThrow">
+            <summary>
+            Метательное или ближнее?
+            </summary>
+        </member>
+        <member name="P:vfight.BattleItem.IsHeavy">
+            <summary>
+            Тяжелый предмет?
+            </summary>
+        </member>
+        <member name="P:vfight.BattleItem.Chance">
+            <summary>
+            Шанс на использование
+            </summary>
+        </member>
+        <member name="P:vfight.BattleItem.IsOnStart">
+            <summary>
+            Доступен ли в начале игры?
+            </summary>
+        </member>
+        <member name="T:vfight.FightStat">
+            <summary>
+            Класс описывает статистику боя
+            </summary>
+        </member>
+        <member name="P:vfight.FightStat.Player1">
+            <summary>
+            Статистика Игрока 1 на момент начала боя
+            </summary>
+        </member>
+        <member name="P:vfight.FightStat.Player2">
+            <summary>
+            Статистика Игрока 2 на момент начала боя
+            </summary>
+        </member>
+        <member name="P:vfight.FightStat.Rounds">
+            <summary>
+            Статистика по раундам
+            </summary>
+        </member>
+        <member name="P:vfight.PlayerStat.UserID">
+            <summary>
+            Идентификатор пользователя
+            </summary>
+        </member>
+        <member name="P:vfight.PlayerStat.WeaponID">
+            <summary>
+            Идентификатор оружия
+            </summary>
+        </member>
+        <member name="P:vfight.PlayerStat.ArmorID">
+            <summary>
+            Идентификатор брони
+            </summary>
+        </member>
+        <member name="T:vfight.RoundStat">
+            <summary>
+            Класс содержит параметры для описания одного раунда боя
+            1.Использование предмета (Игрока 1)
+            2.Атака (Игрока 1)
+            3.Использование предмета (Игрока 2)
+            4.Атака (Игрока 2)
+            </summary>
+        </member>
+        <member name="P:vfight.RoundStat.Actions1">
+            <summary>
+            Действия игрока 1
+            </summary>
+        </member>
+        <member name="P:vfight.RoundStat.Actions2">
+            <summary>
+            Действия игрока 2
+            </summary>
+        </member>
+        <member name="T:vfight.WeaponList">
+            <summary>
+            Содержит список оружия пользователя
+            </summary>
+        </member>
+        <member name="M:vfight.WeaponList.GetRandomWeapon">
+            <summary>
+            Возвращает случайноу оружие из списка
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:vfight.RoundActions">
+            <summary>
+            Действия персонажей за один раунд
+            </summary>
+        </member>
+        <member name="P:vfight.RoundActions.UseItem">
+            <summary>
+            Использование предмета
+            </summary>
+        </member>
+        <member name="P:vfight.RoundActions.Attack">
+            <summary>
+            Атака
+            </summary>
+        </member>
+    </members>
+</doc>

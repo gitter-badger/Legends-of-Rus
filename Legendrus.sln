@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual C# Express 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{709D500B-9622-4C67-9D24-B83EC1EEF688}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "classtest", "classtest\classtest.csproj", "{ADCEE0C9-66B1-4317-B671-700783990B77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,6 +15,10 @@ Global
 		{709D500B-9622-4C67-9D24-B83EC1EEF688}.Debug|x86.Build.0 = Debug|x86
 		{709D500B-9622-4C67-9D24-B83EC1EEF688}.Release|x86.ActiveCfg = Release|x86
 		{709D500B-9622-4C67-9D24-B83EC1EEF688}.Release|x86.Build.0 = Release|x86
+		{ADCEE0C9-66B1-4317-B671-700783990B77}.Debug|x86.ActiveCfg = Debug|x86
+		{ADCEE0C9-66B1-4317-B671-700783990B77}.Debug|x86.Build.0 = Debug|x86
+		{ADCEE0C9-66B1-4317-B671-700783990B77}.Release|x86.ActiveCfg = Release|x86
+		{ADCEE0C9-66B1-4317-B671-700783990B77}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

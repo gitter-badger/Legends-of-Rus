@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Entities</name>
+    </assembly>
+    <members>
+        <member name="T:vfight.Character">
+            <summary>
+            Класс описывает структуру данных персонажа
+            </summary>
+        </member>
+        <member name="P:vfight.Character.Age">
+            <summary>
+            Возраст персонажа
+            </summary>
+        </member>
+        <member name="P:vfight.Character.UpdateStamp">
+            <summary>
+            Время последнего обращения клиента к серверу – для целей обновления данных
+            </summary>
+        </member>
+        <member name="P:vfight.Character.IsMale">
+            <summary>
+            Пол персонажа: мужской или нет?
+            </summary>
+        </member>
+        <member name="P:vfight.Character.Power">
+            <summary>
+            Сила персонажа (минимальное значение - 1)
+            </summary>
+        </member>
+        <member name="P:vfight.Character.Agility">
+            <summary>
+            Ловкость персонажа (минимальное значение - 1)
+            </summary>
+        </member>
+        <member name="P:vfight.Character.Speed">
+            <summary>
+            Скорость персонажа (минимально значение - 1)
+            </summary>
+        </member>
+        <member name="P:vfight.Character.Vitality">
+            <summary>
+            Живучесть персонажа (минимальное значение - 1)
+            </summary>
+        </member>
+        <member name="P:vfight.Character.Hp">
+            <summary>
+            Очки жизней персонажа
+            </summary>
+        </member>
+        <member name="T:vfight.Weapon">
+            <summary>
+            Класс содержит описание характеристик оружия
+            </summary>
+        </member>
+        <member name="M:vfight.Weapon.#ctor(System.Int32,System.String,System.Boolean)">
+            <summary>
+            Конструктор с предустановленными значениями
+            </summary>
+            <param name="_damage">Повреждения</param>
+            <param name="_type">Тип</param>
+            <param name="_twoHands">Является ли оружие двуручным</param>
+        </member>
+        <member name="P:vfight.User.ID">
+            <summary>
+            свойство::: ID вконтакте. По умолчанию 0.
+            </summary>
+            <remarks>Satos 16.11.2010</remarks>
+        </member>
+        <member name="P:vfight.User.Teeth">
+            <summary>
+            Количество зубов (игровой валюты) у персонажа
+            </summary>
+        </member>
+        <member name="P:vfight.User.TeethGold">
+            <summary>
+            Количество золотых зубов
+            </summary>
+        </member>
+    </members>
+</doc>

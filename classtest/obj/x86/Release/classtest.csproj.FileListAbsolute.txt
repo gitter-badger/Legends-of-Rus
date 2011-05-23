@@ -1,0 +1,27 @@
+C:\Users\alex.ts\documents\visual studio 2010\Projects\classtest\classtest\bin\Release\classtest.exe
+C:\Users\alex.ts\documents\visual studio 2010\Projects\classtest\classtest\bin\Release\classtest.pdb
+C:\Users\alex.ts\documents\visual studio 2010\Projects\classtest\classtest\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\alex.ts\documents\visual studio 2010\Projects\classtest\classtest\obj\x86\Release\classtest.exe
+C:\Users\alex.ts\documents\visual studio 2010\Projects\classtest\classtest\obj\x86\Release\classtest.pdb
+C:\Users\alex.ts\Documents\Visual Studio 2010\Projects\classtest\classtest\bin\Release\Entities.dll
+C:\Users\alex.ts\Documents\Visual Studio 2010\Projects\classtest\classtest\bin\Release\Entities.pdb
+C:\Users\alex.ts\Documents\Visual Studio 2010\Projects\classtest\classtest\bin\Release\Entities.xml
+C:\Users\a-tri\Documents\Visual Studio 2010\Projects\classtest\classtest\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\a-tri\Documents\Visual Studio 2010\Projects\classtest\classtest\obj\x86\Release\classtest.exe
+C:\Users\a-tri\Documents\Visual Studio 2010\Projects\classtest\classtest\bin\Release\classtest.exe
+C:\Users\a-tri\Documents\Visual Studio 2010\Projects\classtest\classtest\bin\Release\classtest.pdb
+C:\Users\a-tri\Documents\Visual Studio 2010\Projects\classtest\classtest\bin\Release\Entities.dll
+C:\Users\a-tri\Documents\Visual Studio 2010\Projects\classtest\classtest\bin\Release\Entities.pdb
+C:\Users\a-tri\Documents\Visual Studio 2010\Projects\classtest\classtest\bin\Release\Entities.xml
+C:\Users\a-tri\Documents\Visual Studio 2010\Projects\classtest\classtest\obj\x86\Release\classtest.pdb
+d:\Projects\C#\classtest\classtest\obj\x86\Release\classtest.exe
+d:\Projects\C#\classtest\classtest\obj\x86\Release\classtest.pdb
+d:\Projects\C#\classtest\classtest\bin\Release\classtest.exe
+d:\Projects\C#\classtest\classtest\bin\Release\classtest.pdb
+d:\Projects\C#\classtest\classtest\bin\Release\Entities.dll
+d:\Projects\C#\classtest\classtest\bin\Release\Entities.pdb
+d:\Projects\C#\classtest\classtest\bin\Release\Entities.xml
+d:\Projects\C#\classtest\classtest\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\a-tri\Documents\Visual Studio 2010\Projects\Legendrus\classtest\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\a-tri\Documents\Visual Studio 2010\Projects\Legendrus\classtest\obj\x86\Release\classtest.exe
+C:\Users\a-tri\Documents\Visual Studio 2010\Projects\Legendrus\classtest\obj\x86\Release\classtest.pdb

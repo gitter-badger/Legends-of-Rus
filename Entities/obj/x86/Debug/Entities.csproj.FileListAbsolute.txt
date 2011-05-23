@@ -1,0 +1,5 @@
+C:\Users\a-tri\Documents\Visual Studio 2010\Projects\Legendrus\Entities\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\a-tri\Documents\Visual Studio 2010\Projects\Legendrus\Entities\bin\Debug\Entities.dll
+C:\Users\a-tri\Documents\Visual Studio 2010\Projects\Legendrus\Entities\bin\Debug\Entities.pdb
+C:\Users\a-tri\Documents\Visual Studio 2010\Projects\Legendrus\Entities\obj\x86\Debug\Entities.dll
+C:\Users\a-tri\Documents\Visual Studio 2010\Projects\Legendrus\Entities\obj\x86\Debug\Entities.pdb

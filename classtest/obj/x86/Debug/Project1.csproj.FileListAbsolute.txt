@@ -1,0 +1,5 @@
+C:\Users\alex.ts\AppData\Local\Temporary Projects\Project1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\alex.ts\AppData\Local\Temporary Projects\Project1\bin\Debug\Project1.exe
+C:\Users\alex.ts\AppData\Local\Temporary Projects\Project1\bin\Debug\Project1.pdb
+C:\Users\alex.ts\AppData\Local\Temporary Projects\Project1\obj\x86\Debug\Project1.exe
+C:\Users\alex.ts\AppData\Local\Temporary Projects\Project1\obj\x86\Debug\Project1.pdb
